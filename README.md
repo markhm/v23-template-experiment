@@ -1,3 +1,8 @@
+# MHM: About this project 
+Date: 22 Jan 2022
+Project to understand how to create a html-template under Lit-element, so Mapbox-flow / ApexCharts-flow can be ported to Vaadin 15+.
+
+----
 # Custom project from start.vaadin.com
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.

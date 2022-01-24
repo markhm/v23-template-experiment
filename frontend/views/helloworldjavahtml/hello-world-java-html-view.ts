@@ -12,9 +12,16 @@ export class HelloWorldJavaHTMLView extends LitElement {
   }
 
   render() {
-    return html`<vaadin-horizontal-layout theme="margin spacing" class="items-end"
-      ><vaadin-text-field id="name" label="Your name"></vaadin-text-field>
-      <vaadin-button id="sayHello">Say hello</vaadin-button></vaadin-horizontal-layout
-    >`;
+    return html`
+      <vaadin-horizontal-layout 
+        theme="margin spacing" 
+        class="items-end">
+        <vaadin-text-field 
+          id="name" 
+          label="Your name"
+        ></vaadin-text-field>
+        <vaadin-button 
+          id="sayHello">Say hello</vaadin-button>
+      </vaadin-horizontal-layout>`;
   }
 }
